@@ -1,3 +1,5 @@
+
+import { initializeApp } from "firebase/app";
 import {
   getAuth,
   signInWithRedirect,
@@ -29,7 +31,8 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
-
+const firebaseApp = initializeApp(firebaseConfig);
+console.log(firebaseApp);
 
 const provider = new GoogleAuthProvider();
 provider.setCustomParameters({
