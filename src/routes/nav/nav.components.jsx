@@ -1,5 +1,5 @@
 import React from "react";
-import { Outlet, Link } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import { ReactComponent as CrownLogo } from "../../assests/crown.svg";
 import { NavigationContainer,NavLink,NavLinks,LogoContainer } from "./nav.styles";
 import { useContext } from "react";
